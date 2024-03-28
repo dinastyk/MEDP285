@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raster Graphics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Montserrat", sans-serif;
+            user-select: none;
+        }
+        body{
+            overflow: hidden;
+            background-image: url("rastimages/EARTH.png");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        header{
+            color: rgb(189, 199, 217);
+            text-align: center;
+        }
+        #me{
+            bottom: 0;
+            position: absolute;
+            left: 0;
+        }
+        #icespice{
+            position: absolute;
+            top: 10%;
+            left: -17%;
+            
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            left:50%;
+            color: white;
+           
+        }
+    </style>
+</head>
+<body>
+    <header><h1> outer spice </h1>  </header>
+    <main>
+        
+        <img id="me" srcset="rastimages/holdingflag.png 1440w, rastimages/holdingflag.png 960w, rastimages/holdingflag.png  480w" src="rastimages/holdingflag.png " width="700px" height="auto" alt="me">
+        <img  id="icespice" srcset="rastimages/icespice.png 1440w, rastimages/icespice.png 960w, rastimages/icespice.png 480w" src="rastimages/icespice.png" width="90%" height="auto" alt="flag">
+    </main> 
+
+    <footer><small>Dinasty Kelly </small></footer>
+</body>
+</html>
